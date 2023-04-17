@@ -1,0 +1,290 @@
+[debug] [2023-04-10T18:04:38.540Z] ----------------------------------------------------------------------
+[debug] [2023-04-10T18:04:38.544Z] Command:       /home/nwaldron/.nvm/versions/node/v18.14.2/bin/node /home/nwaldron/.nvm/versions/node/v18.14.2/bin/firebase deploy
+[debug] [2023-04-10T18:04:38.546Z] CLI Version:   11.25.3
+[debug] [2023-04-10T18:04:38.546Z] Platform:      linux
+[debug] [2023-04-10T18:04:38.546Z] Node Version:  v18.14.2
+[debug] [2023-04-10T18:04:38.547Z] Time:          Mon Apr 10 2023 13:04:38 GMT-0500 (Central Daylight Time)
+[debug] [2023-04-10T18:04:38.547Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-10T18:04:38.711Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-10T18:04:38.712Z] > authorizing via signed-in user (nwaldron@tamu.edu)
+[debug] [2023-04-10T18:04:38.712Z] [iam] checking project smartamberalert for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-04-10T18:04:38.716Z] > refreshing access token with scopes: []
+[debug] [2023-04-10T18:04:38.719Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-04-10T18:04:38.720Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-04-10T18:13:17.592Z] ----------------------------------------------------------------------
+[debug] [2023-04-10T18:13:17.595Z] Command:       /home/nwaldron/.nvm/versions/node/v18.14.2/bin/node /home/nwaldron/.nvm/versions/node/v18.14.2/bin/firebase deploy
+[debug] [2023-04-10T18:13:17.596Z] CLI Version:   11.25.3
+[debug] [2023-04-10T18:13:17.597Z] Platform:      linux
+[debug] [2023-04-10T18:13:17.597Z] Node Version:  v18.14.2
+[debug] [2023-04-10T18:13:17.597Z] Time:          Mon Apr 10 2023 13:13:17 GMT-0500 (Central Daylight Time)
+[debug] [2023-04-10T18:13:17.598Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-10T18:13:17.715Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-10T18:13:17.716Z] > authorizing via signed-in user (nwaldron@tamu.edu)
+[debug] [2023-04-10T18:13:17.716Z] [iam] checking project smartamberalert for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-04-10T18:13:17.719Z] > refreshing access token with scopes: []
+[debug] [2023-04-10T18:13:17.721Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-04-10T18:13:17.721Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-04-10T18:13:46.516Z] ----------------------------------------------------------------------
+[debug] [2023-04-10T18:13:46.520Z] Command:       /home/nwaldron/.nvm/versions/node/v18.14.2/bin/node /home/nwaldron/.nvm/versions/node/v18.14.2/bin/firebase deploy
+[debug] [2023-04-10T18:13:46.520Z] CLI Version:   11.25.3
+[debug] [2023-04-10T18:13:46.521Z] Platform:      linux
+[debug] [2023-04-10T18:13:46.521Z] Node Version:  v18.14.2
+[debug] [2023-04-10T18:13:46.521Z] Time:          Mon Apr 10 2023 13:13:46 GMT-0500 (Central Daylight Time)
+[debug] [2023-04-10T18:13:46.522Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-10T18:13:46.616Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-10T18:13:46.617Z] > authorizing via signed-in user (nwaldron@tamu.edu)
+[debug] [2023-04-10T18:13:46.617Z] [iam] checking project smartamberalert for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-04-10T18:13:46.619Z] > refreshing access token with scopes: []
+[debug] [2023-04-10T18:13:46.621Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-04-10T18:13:46.622Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-04-10T18:13:46.856Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-04-10T18:13:46.857Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-04-10T18:13:46.865Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/smartamberalert:testIamPermissions [none]
+[debug] [2023-04-10T18:13:46.865Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/smartamberalert:testIamPermissions x-goog-quota-user=projects/smartamberalert
+[debug] [2023-04-10T18:13:46.866Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/smartamberalert:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-04-10T18:15:57.037Z] [iam] error while checking permissions, command may fail: FirebaseError: Failed to make request to https://cloudresourcemanager.googleapis.com/v1/projects/smartamberalert:testIamPermissions
+[debug] [2023-04-10T18:15:57.040Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/smartamberalert [none]
+[debug] [2023-04-10T18:15:57.281Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/smartamberalert 200
+[debug] [2023-04-10T18:15:57.281Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/smartamberalert {"projectId":"smartamberalert","projectNumber":"891674538347","displayName":"SmartAmberAlert","name":"projects/smartamberalert","resources":{"hostingSite":"smartamberalert","storageBucket":"smartamberalert.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_b3b68a09-3a88-415d-bdd3-ed44e61e2843"}
+[info] 
+[info] === Deploying to 'smartamberalert'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2023-04-10T18:15:57.297Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/smartamberalert/versions [none]
+[debug] [2023-04-10T18:15:57.298Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/smartamberalert/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2023-04-10T18:15:57.991Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/smartamberalert/versions 200
+[debug] [2023-04-10T18:15:57.992Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/smartamberalert/versions {"name":"projects/891674538347/sites/smartamberalert/versions/4feb9230d9cc69fc","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[info] i  hosting[smartamberalert]: beginning deploy... 
+[info] i  hosting[smartamberalert]: found 1 files in public 
+[debug] [2023-04-10T18:18:10.179Z] [hosting] uploading with 200 concurrency
+[debug] [2023-04-10T18:18:10.211Z] [hosting] hash cache [cHVibGlj] stored for 1 files
+[debug] [2023-04-10T18:18:10.212Z] [hosting][hash queue][FINAL] {"max":15,"min":15,"avg":15,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":20}
+[debug] [2023-04-10T18:18:10.213Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/891674538347/sites/smartamberalert/versions/4feb9230d9cc69fc:populateFiles [none]
+[debug] [2023-04-10T18:18:10.214Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/891674538347/sites/smartamberalert/versions/4feb9230d9cc69fc:populateFiles {"files":{"/index.html":"4a63394d90f572db082234a9c8195dd90f478116580f57502226ba11e1a156fb"}}
+[debug] [2023-04-10T18:20:23.676Z] [populateQueue] Retrying task index 0
+[debug] [2023-04-10T18:20:23.677Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/891674538347/sites/smartamberalert/versions/4feb9230d9cc69fc:populateFiles [none]
+[debug] [2023-04-10T18:20:23.677Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/891674538347/sites/smartamberalert/versions/4feb9230d9cc69fc:populateFiles {"files":{"/index.html":"4a63394d90f572db082234a9c8195dd90f478116580f57502226ba11e1a156fb"}}
+[debug] [2023-04-10T18:20:24.125Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/891674538347/sites/smartamberalert/versions/4feb9230d9cc69fc:populateFiles 200
+[debug] [2023-04-10T18:20:24.125Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/891674538347/sites/smartamberalert/versions/4feb9230d9cc69fc:populateFiles {"uploadRequiredHashes":["4a63394d90f572db082234a9c8195dd90f478116580f57502226ba11e1a156fb"],"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/smartamberalert/versions/4feb9230d9cc69fc/files"}
+[debug] [2023-04-10T18:20:24.128Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/smartamberalert/versions/4feb9230d9cc69fc/files/4a63394d90f572db082234a9c8195dd90f478116580f57502226ba11e1a156fb [none]
+[debug] [2023-04-10T18:20:24.128Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/smartamberalert/versions/4feb9230d9cc69fc/files/4a63394d90f572db082234a9c8195dd90f478116580f57502226ba11e1a156fb [stream]
+[debug] [2023-04-10T18:20:24.132Z] [hosting][populate queue][FINAL] {"max":451,"min":451,"avg":451,"active":0,"complete":1,"success":1,"errored":0,"retried":1,"total":1,"elapsed":133923}
+[debug] [2023-04-10T18:20:24.132Z] [hosting] uploads queued: 1
+[debug] [2023-04-10T18:20:24.837Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/smartamberalert/versions/4feb9230d9cc69fc/files/4a63394d90f572db082234a9c8195dd90f478116580f57502226ba11e1a156fb 200
+[debug] [2023-04-10T18:20:24.838Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/smartamberalert/versions/4feb9230d9cc69fc/files/4a63394d90f572db082234a9c8195dd90f478116580f57502226ba11e1a156fb [stream]
+[debug] [2023-04-10T18:20:24.838Z] [hosting][upload queue][FINAL] {"max":712,"min":712,"avg":712,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":712}
+[info] ✔  hosting[smartamberalert]: file upload complete 
+[debug] [2023-04-10T18:20:24.842Z] [hosting] deploy completed after 134679ms
+[debug] [2023-04-10T18:20:24.853Z] [
+  {
+    "config": {
+      "public": "public",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "smartamberalert"
+    },
+    "version": "projects/891674538347/sites/smartamberalert/versions/4feb9230d9cc69fc"
+  }
+]
+[info] i  hosting[smartamberalert]: finalizing version... 
+[debug] [2023-04-10T18:20:24.863Z] >>> [apiv2][query] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/smartamberalert/versions/4feb9230d9cc69fc updateMask=status%2Cconfig
+[debug] [2023-04-10T18:20:24.863Z] >>> [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/smartamberalert/versions/4feb9230d9cc69fc {"status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]}}
+[debug] [2023-04-10T18:22:41.415Z] Error: Timed out.
+    at Timeout._onTimeout (/home/nwaldron/.nvm/versions/node/v18.14.2/lib/node_modules/firebase-tools/lib/utils.js:253:49)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-04-10T18:26:56.968Z] ----------------------------------------------------------------------
+[debug] [2023-04-10T18:26:56.973Z] Command:       /home/nwaldron/.nvm/versions/node/v18.14.2/bin/node /home/nwaldron/.nvm/versions/node/v18.14.2/bin/firebase serve
+[debug] [2023-04-10T18:26:56.974Z] CLI Version:   11.25.3
+[debug] [2023-04-10T18:26:56.974Z] Platform:      linux
+[debug] [2023-04-10T18:26:56.974Z] Node Version:  v18.14.2
+[debug] [2023-04-10T18:26:56.975Z] Time:          Mon Apr 10 2023 13:26:56 GMT-0500 (Central Daylight Time)
+[debug] [2023-04-10T18:26:56.975Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-10T18:26:57.145Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-10T18:26:57.146Z] > authorizing via signed-in user (nwaldron@tamu.edu)
+[debug] [2023-04-10T18:26:57.146Z] [iam] checking project smartamberalert for permissions ["firebase.projects.get"]
+[debug] [2023-04-10T18:26:57.150Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/smartamberalert:testIamPermissions [none]
+[debug] [2023-04-10T18:26:57.151Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/smartamberalert:testIamPermissions x-goog-quota-user=projects/smartamberalert
+[debug] [2023-04-10T18:26:57.151Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/smartamberalert:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-04-10T18:26:57.395Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/smartamberalert:testIamPermissions 200
+[debug] [2023-04-10T18:26:57.396Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/smartamberalert:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-04-10T18:26:57.399Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/smartamberalert [none]
+[debug] [2023-04-10T18:26:57.758Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/smartamberalert 200
+[debug] [2023-04-10T18:26:57.759Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/smartamberalert {"projectId":"smartamberalert","projectNumber":"891674538347","displayName":"SmartAmberAlert","name":"projects/smartamberalert","resources":{"hostingSite":"smartamberalert","storageBucket":"smartamberalert.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_b3b68a09-3a88-415d-bdd3-ed44e61e2843"}
+[info] 
+[info] === Serving from '/home/nwaldron/SAA_ECEN_403'...
+[info] 
+[debug] [2023-04-10T18:26:57.770Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/smartamberalert/sites 
+[debug] [2023-04-10T18:29:10.638Z] Failed to list hosting sites
+[debug] Failed to make request to https://firebasehosting.googleapis.com/v1beta1/projects/smartamberalert/sites
+[debug] [2023-04-10T18:29:10.642Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/smartamberalert/webApps/-/config [none]
+[debug] [2023-04-10T18:29:11.011Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/smartamberalert/webApps/-/config 200
+[debug] [2023-04-10T18:29:11.012Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/smartamberalert/webApps/-/config {"projectId":"smartamberalert","appId":"1:891674538347:web:a1f2d82c213f0903d1dc2e","storageBucket":"smartamberalert.appspot.com","locationId":"us-central","apiKey":"AIzaSyCRo00esgcpRLmEMlsqeUl7rNzI85iun04","authDomain":"smartamberalert.firebaseapp.com","messagingSenderId":"891674538347","measurementId":"G-HZVZ5KVEN4"}
+[debug] [2023-04-10T18:29:11.031Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/smartamberalert [none]
+[debug] [2023-04-10T18:29:41.064Z] Timeout reached making request to https://firebase.googleapis.com/v1beta1/projects/smartamberalert
+[info] i  hosting[smartamberalert]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] ✔  hosting[smartamberalert]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: 127.0.0.1 - - [10/Apr/2023:18:31:42 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [10/Apr/2023:18:31:42 +0000] \"GET / HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0\""}}
+[info] i  hosting: 127.0.0.1 - - [10/Apr/2023:18:31:42 +0000] "GET /favicon.ico HTTP/1.1" - - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [10/Apr/2023:18:31:42 +0000] \"GET /favicon.ico HTTP/1.1\" - - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0\""}}
+[debug] [2023-04-13T20:32:31.584Z] ----------------------------------------------------------------------
+[debug] [2023-04-13T20:32:31.590Z] Command:       /home/nwaldron/.nvm/versions/node/v18.14.2/bin/node /home/nwaldron/.nvm/versions/node/v18.14.2/bin/firebase serve
+[debug] [2023-04-13T20:32:31.591Z] CLI Version:   11.25.3
+[debug] [2023-04-13T20:32:31.592Z] Platform:      linux
+[debug] [2023-04-13T20:32:31.592Z] Node Version:  v18.14.2
+[debug] [2023-04-13T20:32:31.593Z] Time:          Thu Apr 13 2023 15:32:31 GMT-0500 (Central Daylight Time)
+[debug] [2023-04-13T20:32:31.594Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-13T20:32:31.602Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-04-13T20:32:31.838Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-13T20:32:31.839Z] > authorizing via signed-in user (nwaldron@tamu.edu)
+[debug] [2023-04-13T20:32:31.840Z] [iam] checking project smartamberalert for permissions ["firebase.projects.get"]
+[debug] [2023-04-13T20:32:31.841Z] > refreshing access token with scopes: []
+[debug] [2023-04-13T20:32:31.843Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-04-13T20:32:31.843Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-04-13T20:32:32.048Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-04-13T20:32:32.049Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-04-13T20:32:32.067Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/smartamberalert:testIamPermissions [none]
+[debug] [2023-04-13T20:32:32.068Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/smartamberalert:testIamPermissions x-goog-quota-user=projects/smartamberalert
+[debug] [2023-04-13T20:32:32.069Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/smartamberalert:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-04-13T21:31:40.526Z] ----------------------------------------------------------------------
+[debug] [2023-04-13T21:31:40.527Z] Command:       /home/nwaldron/.nvm/versions/node/v18.14.2/bin/node /home/nwaldron/.nvm/versions/node/v18.14.2/bin/firebase serve
+[debug] [2023-04-13T21:31:40.528Z] CLI Version:   11.25.3
+[debug] [2023-04-13T21:31:40.528Z] Platform:      linux
+[debug] [2023-04-13T21:31:40.528Z] Node Version:  v18.14.2
+[debug] [2023-04-13T21:31:40.528Z] Time:          Thu Apr 13 2023 16:31:40 GMT-0500 (Central Daylight Time)
+[debug] [2023-04-13T21:31:40.528Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-13T21:31:40.531Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-04-13T21:31:40.620Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-13T21:31:40.620Z] > authorizing via signed-in user (nwaldron@tamu.edu)
+[debug] [2023-04-13T21:31:40.620Z] [iam] checking project smartamberalert for permissions ["firebase.projects.get"]
+[debug] [2023-04-13T21:31:40.621Z] > refreshing access token with scopes: []
+[debug] [2023-04-13T21:31:40.621Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-04-13T21:31:40.621Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-04-13T21:31:40.775Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-04-13T21:31:40.776Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2023-04-13T21:31:40.788Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-04-13T21:31:40.788Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-04-13T21:31:40.793Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/smartamberalert:testIamPermissions [none]
+[debug] [2023-04-13T21:31:40.793Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/smartamberalert:testIamPermissions x-goog-quota-user=projects/smartamberalert
+[debug] [2023-04-13T21:31:40.793Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/smartamberalert:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-04-13T21:33:52.516Z] [iam] error while checking permissions, command may fail: FirebaseError: Failed to make request to https://cloudresourcemanager.googleapis.com/v1/projects/smartamberalert:testIamPermissions
+[debug] [2023-04-13T21:33:52.518Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/smartamberalert [none]
+[debug] [2023-04-13T21:33:52.886Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/smartamberalert 200
+[debug] [2023-04-13T21:33:52.887Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/smartamberalert {"projectId":"smartamberalert","projectNumber":"891674538347","displayName":"SmartAmberAlert","name":"projects/smartamberalert","resources":{"hostingSite":"smartamberalert","storageBucket":"smartamberalert.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_9a65c5b4-4c1f-455c-ac1a-d6b323f872fd"}
+[info] 
+[info] === Serving from '/home/nwaldron/SAA_ECEN_403'...
+[info] 
+[debug] [2023-04-13T21:33:52.891Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/smartamberalert/sites 
+[debug] [2023-04-13T21:33:53.395Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/smartamberalert/sites 200
+[debug] [2023-04-13T21:33:53.396Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/smartamberalert/sites {"sites":[{"name":"projects/smartamberalert/sites/smartamberalert","defaultUrl":"https://smartamberalert.web.app","appId":"1:891674538347:web:a1f2d82c213f0903d1dc2e","type":"DEFAULT_SITE"}]}
+[debug] [2023-04-13T21:33:53.396Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/smartamberalert/webApps/1:891674538347:web:a1f2d82c213f0903d1dc2e/config [none]
+[debug] [2023-04-13T21:33:53.888Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/smartamberalert/webApps/1:891674538347:web:a1f2d82c213f0903d1dc2e/config 200
+[debug] [2023-04-13T21:33:53.888Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/smartamberalert/webApps/1:891674538347:web:a1f2d82c213f0903d1dc2e/config {"projectId":"smartamberalert","appId":"1:891674538347:web:a1f2d82c213f0903d1dc2e","storageBucket":"smartamberalert.appspot.com","locationId":"us-central","apiKey":"AIzaSyCRo00esgcpRLmEMlsqeUl7rNzI85iun04","authDomain":"smartamberalert.firebaseapp.com","messagingSenderId":"891674538347","measurementId":"G-HZVZ5KVEN4"}
+[debug] [2023-04-13T21:33:53.892Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/smartamberalert [none]
+[debug] [2023-04-13T21:33:54.231Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/smartamberalert 200
+[debug] [2023-04-13T21:33:54.231Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/smartamberalert {"projectId":"smartamberalert","projectNumber":"891674538347","displayName":"SmartAmberAlert","name":"projects/smartamberalert","resources":{"hostingSite":"smartamberalert","storageBucket":"smartamberalert.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_9a65c5b4-4c1f-455c-ac1a-d6b323f872fd"}
+[info] i  hosting[smartamberalert]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] ✔  hosting[smartamberalert]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: 127.0.0.1 - - [13/Apr/2023:21:37:53 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [13/Apr/2023:21:37:53 +0000] \"GET / HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0\""}}
+[info] i  hosting: 127.0.0.1 - - [13/Apr/2023:21:37:54 +0000] "GET /favicon.ico HTTP/1.1" - - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [13/Apr/2023:21:37:54 +0000] \"GET /favicon.ico HTTP/1.1\" - - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0\""}}
+[debug] [2023-04-13T21:42:38.336Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/9.17.2/firebase-app-compat.js.map [none]
+[debug] [2023-04-13T21:42:38.632Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/9.17.2/firebase-app-compat.js.map 200
+[debug] [2023-04-13T21:42:38.632Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/9.17.2/firebase-app-compat.js.map [stream]
+[info] i  hosting: 127.0.0.1 - - [13/Apr/2023:21:42:38 +0000] "GET /__/firebase/9.17.2/firebase-app-compat.js.map HTTP/1.1" 200 47566 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [13/Apr/2023:21:42:38 +0000] \"GET /__/firebase/9.17.2/firebase-app-compat.js.map HTTP/1.1\" 200 47566 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0\""}}
+[info] Shutting down...
+[debug] [2023-04-13T21:48:35.157Z] Error: Timed out.
+    at Timeout._onTimeout (/home/nwaldron/.nvm/versions/node/v18.14.2/lib/node_modules/firebase-tools/lib/utils.js:253:49)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-04-13T21:48:42.679Z] ----------------------------------------------------------------------
+[debug] [2023-04-13T21:48:42.681Z] Command:       /home/nwaldron/.nvm/versions/node/v18.14.2/bin/node /home/nwaldron/.nvm/versions/node/v18.14.2/bin/firebase serve
+[debug] [2023-04-13T21:48:42.681Z] CLI Version:   11.25.3
+[debug] [2023-04-13T21:48:42.681Z] Platform:      linux
+[debug] [2023-04-13T21:48:42.681Z] Node Version:  v18.14.2
+[debug] [2023-04-13T21:48:42.681Z] Time:          Thu Apr 13 2023 16:48:42 GMT-0500 (Central Daylight Time)
+[debug] [2023-04-13T21:48:42.682Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-13T21:48:42.768Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-13T21:48:42.769Z] > authorizing via signed-in user (nwaldron@tamu.edu)
+[debug] [2023-04-13T21:48:42.769Z] [iam] checking project smartamberalert for permissions ["firebase.projects.get"]
+[debug] [2023-04-13T21:48:42.770Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/smartamberalert:testIamPermissions [none]
+[debug] [2023-04-13T21:48:42.770Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/smartamberalert:testIamPermissions x-goog-quota-user=projects/smartamberalert
+[debug] [2023-04-13T21:48:42.770Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/smartamberalert:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-04-13T21:48:43.024Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/smartamberalert:testIamPermissions 200
+[debug] [2023-04-13T21:48:43.025Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/smartamberalert:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-04-13T21:48:43.028Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/smartamberalert [none]
+[debug] [2023-04-13T21:48:43.393Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/smartamberalert 200
+[debug] [2023-04-13T21:48:43.393Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/smartamberalert {"projectId":"smartamberalert","projectNumber":"891674538347","displayName":"SmartAmberAlert","name":"projects/smartamberalert","resources":{"hostingSite":"smartamberalert","storageBucket":"smartamberalert.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_9a65c5b4-4c1f-455c-ac1a-d6b323f872fd"}
+[info] 
+[info] === Serving from '/home/nwaldron/SAA_ECEN_403'...
+[info] 
+[debug] [2023-04-13T21:48:43.396Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/smartamberalert/sites 
+[debug] [2023-04-13T21:48:43.864Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/smartamberalert/sites 200
+[debug] [2023-04-13T21:48:43.865Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/smartamberalert/sites {"sites":[{"name":"projects/smartamberalert/sites/smartamberalert","defaultUrl":"https://smartamberalert.web.app","appId":"1:891674538347:web:a1f2d82c213f0903d1dc2e","type":"DEFAULT_SITE"}]}
+[debug] [2023-04-13T21:48:43.865Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/smartamberalert/webApps/1:891674538347:web:a1f2d82c213f0903d1dc2e/config [none]
+[debug] [2023-04-13T21:48:44.388Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/smartamberalert/webApps/1:891674538347:web:a1f2d82c213f0903d1dc2e/config 200
+[debug] [2023-04-13T21:48:44.388Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/smartamberalert/webApps/1:891674538347:web:a1f2d82c213f0903d1dc2e/config {"projectId":"smartamberalert","appId":"1:891674538347:web:a1f2d82c213f0903d1dc2e","storageBucket":"smartamberalert.appspot.com","locationId":"us-central","apiKey":"AIzaSyCRo00esgcpRLmEMlsqeUl7rNzI85iun04","authDomain":"smartamberalert.firebaseapp.com","messagingSenderId":"891674538347","measurementId":"G-HZVZ5KVEN4"}
+[debug] [2023-04-13T21:48:44.399Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/smartamberalert [none]
+[debug] [2023-04-13T21:48:44.745Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/smartamberalert 200
+[debug] [2023-04-13T21:48:44.745Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/smartamberalert {"projectId":"smartamberalert","projectNumber":"891674538347","displayName":"SmartAmberAlert","name":"projects/smartamberalert","resources":{"hostingSite":"smartamberalert","storageBucket":"smartamberalert.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_9a65c5b4-4c1f-455c-ac1a-d6b323f872fd"}
+[info] i  hosting[smartamberalert]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] ✔  hosting[smartamberalert]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: 127.0.0.1 - - [13/Apr/2023:21:48:47 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [13/Apr/2023:21:48:47 +0000] \"GET / HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0\""}}
+[info] i  hosting: 127.0.0.1 - - [13/Apr/2023:21:48:47 +0000] "GET /app.js HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [13/Apr/2023:21:48:47 +0000] \"GET /app.js HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0\""}}
+[info] i  hosting: 127.0.0.1 - - [13/Apr/2023:21:48:49 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [13/Apr/2023:21:48:49 +0000] \"GET / HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0\""}}
+[info] i  hosting: 127.0.0.1 - - [13/Apr/2023:21:48:49 +0000] "GET /app.js HTTP/1.1" 304 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [13/Apr/2023:21:48:49 +0000] \"GET /app.js HTTP/1.1\" 304 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0\""}}
+[debug] [2023-04-13T21:49:03.034Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/9.17.2/firebase-app-compat.js.map [none]
+[info] Shutting down...
+[info] i  hosting: 127.0.0.1 - - [13/Apr/2023:21:50:34 +0000] "GET /__/firebase/9.17.2/firebase-app-compat.js.map HTTP/1.1" - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [13/Apr/2023:21:50:34 +0000] \"GET /__/firebase/9.17.2/firebase-app-compat.js.map HTTP/1.1\" - - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0\""}}
+[debug] [2023-04-13T21:50:39.915Z] Error: Timed out.
+    at Timeout._onTimeout (/home/nwaldron/.nvm/versions/node/v18.14.2/lib/node_modules/firebase-tools/lib/utils.js:253:49)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-04-13T21:50:46.852Z] ----------------------------------------------------------------------
+[debug] [2023-04-13T21:50:46.853Z] Command:       /home/nwaldron/.nvm/versions/node/v18.14.2/bin/node /home/nwaldron/.nvm/versions/node/v18.14.2/bin/firebase serve
+[debug] [2023-04-13T21:50:46.854Z] CLI Version:   11.25.3
+[debug] [2023-04-13T21:50:46.854Z] Platform:      linux
+[debug] [2023-04-13T21:50:46.854Z] Node Version:  v18.14.2
+[debug] [2023-04-13T21:50:46.854Z] Time:          Thu Apr 13 2023 16:50:46 GMT-0500 (Central Daylight Time)
+[debug] [2023-04-13T21:50:46.855Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-13T21:50:46.941Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-13T21:50:46.942Z] > authorizing via signed-in user (nwaldron@tamu.edu)
+[debug] [2023-04-13T21:50:46.942Z] [iam] checking project smartamberalert for permissions ["firebase.projects.get"]
+[debug] [2023-04-13T21:50:46.943Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/smartamberalert:testIamPermissions [none]
+[debug] [2023-04-13T21:50:46.943Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/smartamberalert:testIamPermissions x-goog-quota-user=projects/smartamberalert
+[debug] [2023-04-13T21:50:46.943Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/smartamberalert:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2023-04-13T21:51:40.573Z] ----------------------------------------------------------------------
+[debug] [2023-04-13T21:51:40.574Z] Command:       /home/nwaldron/.nvm/versions/node/v18.14.2/bin/node /home/nwaldron/.nvm/versions/node/v18.14.2/bin/firebase serve
+[debug] [2023-04-13T21:51:40.575Z] CLI Version:   11.25.3
+[debug] [2023-04-13T21:51:40.575Z] Platform:      linux
+[debug] [2023-04-13T21:51:40.575Z] Node Version:  v18.14.2
+[debug] [2023-04-13T21:51:40.575Z] Time:          Thu Apr 13 2023 16:51:40 GMT-0500 (Central Daylight Time)
+[debug] [2023-04-13T21:51:40.575Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-04-13T21:51:40.662Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-04-13T21:51:40.663Z] > authorizing via signed-in user (nwaldron@tamu.edu)
+[debug] [2023-04-13T21:51:40.663Z] [iam] checking project smartamberalert for permissions ["firebase.projects.get"]
+[debug] [2023-04-13T21:51:40.664Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/smartamberalert:testIamPermissions [none]
+[debug] [2023-04-13T21:51:40.664Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/smartamberalert:testIamPermissions x-goog-quota-user=projects/smartamberalert
+[debug] [2023-04-13T21:51:40.664Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/smartamberalert:testIamPermissions {"permissions":["firebase.projects.get"]}
