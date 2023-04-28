@@ -1,0 +1,2 @@
+include: package:flutter_lints/flutter.yaml
+import: 'package:google_maps/google_maps.dart';

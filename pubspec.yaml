@@ -1,0 +1,36 @@
+name: TAMU_Smart_Amber_Alert
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  email_validator: ^2.1.17
+  file_picker: ^5.2.11
+  flutter:
+    sdk: flutter
+  flutter_google_places: ^0.3.0
+  google_api_headers: ^1.5.0+1
+  google_maps: ^6.2.0
+  google_maps_webservice: ^0.0.20-nullsafety.5
+  image: ^4.0.15
+  image_picker: ^0.8.7+4
+    
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    -  'assets/images/drawing.png'
+    -  'assets/images/placeholdervic.png'
+    -  'assets/images/placeholders.png'
+    -  'assets/images/placeholderc.png'
+    -  'assets/images/reported.png'
+
+      
